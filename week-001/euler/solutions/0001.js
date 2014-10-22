@@ -59,7 +59,6 @@
  *             If there is no remainder, it means that a number is cleanly divisible by
  *             another, in this case 10 is cleanly divisibly by 5.
  */
-
 module.exports = function(){ // Do not modify this line
 
 	// Write your code here.  For this first problem, I've started the code for you.  I won't
@@ -67,9 +66,9 @@ module.exports = function(){ // Do not modify this line
 
 	var sum = 0;
 
-	for( PUT STUFF HERE ){
-		if( ){
-			sum += SOMETHING;
+	for(  i = 0; i < 1000; i++ ){
+		if( i % 5 === 0 || i % 3 === 0 ){
+			sum += i;
 		}
 	}
 
@@ -78,3 +77,5 @@ module.exports = function(){ // Do not modify this line
 	return sum;
 
 }; // Do not modify this line
+
+
